@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual credit card design</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="front">
+                    <img class="map-img" src="img/World map.png">
+                    <div class="row">
+                        <img src="img/chip.png" width="60px">
+                        <img id="visa" src="img/VISA.png" width="80px">
+                    </div>
+                    <div class="row card-number">
+                        <p id="firstNumber"></p>
+                        <p id="secondNumber"></p>
+                        <p id="thirdNumber"></p>
+                        <p id="fouthNumber"></p>
+                    </div>
+                    <div class="row card-holder">
+                        <p>CARD HOLDER</p>
+                        <p>VALID TILL</p>
+                    </div>
+                    <div class="row name">
+                        <p>NAME SURNAME</p>
+                        <p id="valid"></p>
+                    </div>
+                </div>
+                <!--                                     -->
+                <div class="back">
+                    <img class="map-img" src="img/World map.png">
+                    <div class="bar"></div>
+                    <div class="row card-cvv">
+                        <div>
+                            <img src="img/pattern.jpg">
+                        </div>
+                        <p id="cvv"></p>
+                    </div>
+                    <div class="row card-text">
+                        <p>Virtual card design</p>
+                    </div>
+                    <div class="row signature">
+                        <p>CUSTOMER SIGNATURE</p>
+                        <img id="visa" src="img/VISA.png" width="80px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
