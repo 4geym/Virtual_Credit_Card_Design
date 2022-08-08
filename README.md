@@ -1,4 +1,4 @@
-# Virtual_Credit_Card_Design
+# Virtual Credit Card Design
 
-<img src="img/web.png">
-<img src="img/web2.png">
+<img src="img/web.png" width="960">
+<img src="img/web2.png" width="960">
